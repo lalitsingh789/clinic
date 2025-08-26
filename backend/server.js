@@ -8,7 +8,7 @@ const path = require("path");
 dotenv.config();
 
 // DB connection
-const connectDB = require("./backend/config/db");
+const connectDB = require("./config/db");
 connectDB();
 
 const app = express();
