@@ -8,6 +8,8 @@ import Icon from 'react-native-vector-icons/Feather';
 import { useUser } from '../contexts/UserContext';
 import styles from '../styles/LoginScreenStyles';
 
+
+
 const LoginScreen = ({ navigation }) => {
   const { setUser } = useUser();
   const [email, setEmail] = useState('');
